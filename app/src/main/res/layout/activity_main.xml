@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#39C13E"
+            android:text="Login/Signup"
+            android:textColor="#ffffff"
+            android:textSize="60dp" />
+
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Email"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter password"
+        android:textSize="30sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnlogin"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#8CCF44"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            app:backgroundTint="#8CCF44"
+            app:cornerRadius="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnsignup"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#8CCF44"
+            android:text="Signup"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            app:backgroundTint="#8CCF44"
+            app:cornerRadius="50dp" />
+         />
+
+
+</LinearLayout>
+
