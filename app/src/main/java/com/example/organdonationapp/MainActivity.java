@@ -27,12 +27,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                init();
+        
+        init();
 
                 btnsignup.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -71,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
                       }
                     }
                 });
-            }
-        });
 
     }
     private void init(){
